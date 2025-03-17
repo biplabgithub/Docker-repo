@@ -18,12 +18,12 @@ CMD ["", ""]
 
 
 what is the different between the docker and dockerfile 
-Feature	    Dockerfile	                                                      Docker
--------     -----------                                                      ----------
-Definition:	 A text file containing instructions to build a Docker image.	   A platform for building, running, and managing containers.
-Purpose:     Automates the creation of Docker images.	                       Runs and manages containers from images.
-Usage:	     Used with docker build to create an image.	                     Used with docker run, docker ps, docker stop, etc. to manage containers.
-File Type:	 A plain text file (typically named Dockerfile).               	 A software tool installed on the system.
-Example:     Command	docker build -t myapp .                                docker run -d -p 8080:80 myapp
+Feature	          Dockerfile	                                                                  Docker
+-------          -----------                                                                 ----------
+Definition:	     A text file containing instructions to build a Docker image.	            A platform for building, running, and managing containers.
+Purpose:        Automates the creation of Docker images.	                                Runs and manages containers from images.
+Usage:	        Used with docker build to create an image.	                              Used with docker run, docker ps, docker stop, etc. to manage containers.
+File Type:	    A plain text file (typically named Dockerfile).               	          A software tool installed on the system.
+Example:        Command	docker build -t myapp .                                           docker run -d -p 8080:80 myapp
 
 
