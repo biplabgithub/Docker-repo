@@ -1,6 +1,7 @@
 what is the docker file 
 A Dockerfile is a script containing a set of instructions used to create a Docker image. It automates the process of packaging applications into lightweight, portable containers.
 simple Dockerfile:
+
 # Use an official Base image for the container 
 FROM (Base image )
 
@@ -18,6 +19,7 @@ CMD ["", ""]
 
 
 what is the different between the docker and dockerfile 
+
 Feature	          Dockerfile	                                                                  Docker
 -------          -----------                                                                 ----------
 Definition:	     A text file containing instructions to build a Docker image.	            A platform for building, running, and managing containers.
@@ -25,5 +27,8 @@ Purpose:        Automates the creation of Docker images.	                       
 Usage:	        Used with docker build to create an image.	                              Used with docker run, docker ps, docker stop, etc. to manage containers.
 File Type:	    A plain text file (typically named Dockerfile).               	          A software tool installed on the system.
 Example:        Command	docker build -t myapp .                                           docker run -d -p 8080:80 myapp
+
+
+
 
 
