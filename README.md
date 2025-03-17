@@ -1,10 +1,12 @@
 # Docker-repo
+
 what is docker 
 
   Docker is an open‐source containerization platform that help us to packaging the application along with all its dependencies (libraries, configuration files, etc.) into a standardized, lightweight unit called a container.
 
 why use the docker ? 
 ------------------------
+
 1.Consistency Across Environments:
        With Docker, you “containerize” your application so that it runs the same way on your development machine, in testing, and in production.
 
