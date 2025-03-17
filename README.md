@@ -27,7 +27,11 @@ Without docker what is the problem:
     configuration, making rapid scaling challenging and inefficient.
 
 install Docker:
-    install the docker in the ubuntu machine 
-        open the terminal and run the command 
-                   sudo apt update
-                   sudo apt upgrade -y
+
+  install the docker in the ubuntu machine 
+  
+  open the terminal and run the command 
+  
+         sudo apt update
+                   
+          sudo apt upgrade -y
