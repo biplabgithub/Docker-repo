@@ -1,0 +1,32 @@
+All the docker command 
+  docker -info
+  docker -versio
+  docker help
+
+  #to build the  images: command use in docker 
+    
+    docker build -t <image name>:<tag>
+  # to show the all running containers
+--------------------------***********************--------------------------
+    
+  docker ps 
+  docker ps -a  (list all the container including stopped)
+
+# to creates and start a container form an image
+------------------****************-------------------------------------
+    docker run -d --name <containner_name> <image_name>:<tag>
+# to /start/stop the containner 
+---------------------------------***********---------------------------------
+      docker stop <container_name>
+      docker start <container_name>  (for start the containner)
+      docker kill <container_name>
+      docker rm <container_name>  (first stop the container then stop it)
+
+
+  # for networking in docker the command is 
+  --------------------------------------------********---------------------------------------
+      
+      docker network <network_name>  (to creating a network for communicate the one container to another )
+      docker rm network <network_name>
+      docker network inspect <network_name>  (displays detailed information about a network)
+      docker volume ls >>>>>> lists all the  volumes 
