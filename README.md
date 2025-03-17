@@ -1,4 +1,6 @@
 # Docker-repo
+ 
+![image](https://github.com/user-attachments/assets/1212dfc2-07e1-468b-bc5b-093d684db1b3)
 
 what is docker 
 
@@ -37,8 +39,6 @@ Without docker what is the problem:
    Without a containerized approach, scaling an application—such as deploying additional instances to handle increased traffic—often involves manual setup and 
    configuration, making rapid scaling challenging and inefficient.
 
-image of the docker 
-![image](https://github.com/user-attachments/assets/1212dfc2-07e1-468b-bc5b-093d684db1b3)
 
 
 install Docker:
