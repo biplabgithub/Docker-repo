@@ -6,10 +6,11 @@ what is docker
 why use the docker ? 
 ------------------------
    1.Consistency Across Environments:
-    With Docker, you “containerize” your application so that it runs the same way on your development machine, in testing, and in production.
+     With Docker, you “containerize” your application so that it runs the same way on your development machine, in testing, and in production.
 
    2. Isolation and Resource Efficiency:
-    Containers isolate your application from other software on the host system. Unlike traditional virtual machines, Docker containers share the host’s operating       system kernel, which means they use fewer resources and start up much faste.
+        Containers isolate your application from other software on the host system. Unlike traditional virtual machines, Docker containers share the host’s operating       system kernel, which means they use 
+        fewer resources and start up much faste.
 Without docker what is the problem:
 -------------------------------------------------------------------------
    3.Inconsistent Environments:
